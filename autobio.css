@@ -1,0 +1,94 @@
+body {
+  font-family: 'Georgia', serif; /* more poetic feel */
+  background-color: #fcf5e5; /* soft cream background */
+  color: #3f3a3a; /* warm dark brown text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fffdf6; /* elegant off-white card */
+  padding: 40px;
+  margin: 50px 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(139, 115, 85, 0.25); /* soft brownish shadow */
+}
+
+h1 {
+  text-align: center;
+  color: #7c6a46; /* classic brown heading */
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Image and Quote Section */
+.image-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(124, 106, 70, 0.3); /* subtle brown tone */
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: #a68a64; /* elegant quote tone */
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+strong {
+  color: #7c6a46; /* brown accent for names and key words */
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #8b7355; /* warm brown button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #7c6a46; /* deeper brown hover */
+  transform: scale(1.02);
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 25px;
+  }
+
+  .image-container img {
+    width: 110px;
+    height: 110px;
+  }
+}
